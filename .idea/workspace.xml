@@ -6,24 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cc37b639-e432-4eba-b981-0f7cc073ac17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/data.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/data.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/sections/about-hero-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/about-hero-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/sections/bucharest-long-term-parking-hero-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/bucharest-long-term-parking-hero-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/sections/bucharest-long-term-parking-included-services-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/bucharest-long-term-parking-included-services-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/sections/cheap-otopeni-parking-budget-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/cheap-otopeni-parking-budget-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/sections/cheap-otopeni-parking-hero-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/cheap-otopeni-parking-hero-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/sections/cheap-otopeni-parking-services-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/cheap-otopeni-parking-services-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/sections/faq-page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/faq-page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/landing/sections/hero-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/hero-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/sections/long-term-parking-hero-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/long-term-parking-hero-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/sections/long-term-parking-security-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/long-term-parking-security-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/sections/otopeni-airport-access-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/otopeni-airport-access-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/sections/otopeni-airport-cta-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/otopeni-airport-cta-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/sections/otopeni-airport-hero-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/otopeni-airport-hero-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/sections/pillars-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/pillars-section.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/landing/ui/responsive-image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/ui/responsive-image.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/seo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/seo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1775154503917</updated>
       <workItem from="1775154504945" duration="17974000" />
-      <workItem from="1775204817593" duration="4485000" />
+      <workItem from="1775204817593" duration="4834000" />
     </task>
     <servers />
   </component>

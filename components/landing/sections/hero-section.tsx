@@ -39,7 +39,7 @@ export function HeroSection() {
             <ResponsiveImage
                 alt="high-angle shot of a premium organized parking lot at dusk"
                 preload
-                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 340px, 284px"
+                sizes="(max-width: 1024px) 340px, 284px"
                 src="/images/homepage/hero.webp"
                 width={284}
                 height={213}
