@@ -5,15 +5,15 @@ import { Container } from "@/components/landing/ui/container";
 const avatarImages = [
   {
     alt: "Portrait of a smiling professional man in casual attire",
-    src: "/images/parcare-ieftina-otopeni/human-casual.png",
+    src: "/images/parcare-ieftina-otopeni/human-casual.webp",
   },
   {
     alt: "Portrait of a friendly young woman with a warm smile",
-    src: "/images/parcare-ieftina-otopeni/human-hoodie.png",
+    src: "/images/parcare-ieftina-otopeni/human-hoodie.webp",
   },
   {
     alt: "Portrait of a middle aged man with professional look",
-    src: "/images/parcare-ieftina-otopeni/human-professional-look.png",
+    src: "/images/parcare-ieftina-otopeni/human-professional-look.webp",
   },
 ] as const;
 

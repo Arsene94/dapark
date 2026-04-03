@@ -13,7 +13,7 @@ export function LongTermParkingSecuritySection() {
               <ResponsiveImage
                 alt="Security camera"
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                src="/images/long-term-parking-otopeni/security-camera.png"
+                src="/images/long-term-parking-otopeni/security-camera.webp"
                 wrapperClassName="h-[400px] w-full rounded-2xl shadow-xl"
               />
               <div className="absolute -bottom-6 -right-6 max-w-xs rounded-xl bg-white p-6 shadow-lg">

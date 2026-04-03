@@ -55,7 +55,7 @@ export function OtopeniAirportHeroSection() {
           <ResponsiveImage
             alt="Parcare Otopeni"
             sizes="(max-width: 768px) 100vw, 50vw"
-            src="/images/parcare-otopeni-animated.png"
+            src="/images/parcare-otopeni-animated.webp"
             wrapperClassName="h-[500px] overflow-hidden rounded-xl shadow-2xl transition-transform duration-500 md:rotate-2 md:hover:rotate-0"
           />
           <div className="absolute -bottom-6 -left-6 max-w-[240px] rounded-xl bg-surface-container-lowest p-6 shadow-xl">

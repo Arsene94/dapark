@@ -248,22 +248,22 @@ export const aboutFleetGallery: FleetGalleryItem[] = [
   {
     alt: "A row of professional white and black transport shuttle vans parked in a clean modern parking facility with green accents",
     className: "md:col-span-2 md:row-span-2",
-    src: "/images/fleet-gallery/underground-cars-parking.png",
+    src: "/images/fleet-gallery/underground-cars-parking.webp",
   },
   {
     alt: "Close up of a modern luxury car dashboard with high-tech displays and premium leather finish in soft morning light",
     className: "",
-    src: "/images/fleet-gallery/car-board.png",
+    src: "/images/fleet-gallery/car-board.webp",
   },
   {
     alt: "Aerial view of a organized car parking lot with neat rows of vehicles and professional staff members coordinating transport",
     className: "",
-    src: "/images/fleet-gallery/parking-cars.png",
+    src: "/images/fleet-gallery/parking-cars.webp",
   },
   {
     alt: "A professional driver in a clean uniform standing next to a modern shuttle van with a friendly welcoming gesture",
     className: "md:col-span-2",
-    src: "/images/fleet-gallery/human-car.png",
+    src: "/images/fleet-gallery/human-car.webp",
   },
 ];
 

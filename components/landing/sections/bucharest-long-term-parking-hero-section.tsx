@@ -43,7 +43,7 @@ export function BucharestLongTermParkingHeroSection() {
           <ResponsiveImage
             alt="Premium Parking Facility"
             sizes="(max-width: 1024px) 100vw, 50vw"
-            src="/images/bucharest-long-term-parking/empty-parking.png"
+            src="/images/bucharest-long-term-parking/empty-parking.webp"
             wrapperClassName="h-[500px] overflow-hidden rounded-2xl shadow-2xl transition-transform duration-500 md:rotate-1 md:hover:rotate-0"
           />
           <div className="absolute -bottom-6 -left-6 hidden rounded-xl border border-surface-container-high bg-white p-6 shadow-xl md:block">

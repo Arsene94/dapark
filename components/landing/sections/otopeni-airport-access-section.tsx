@@ -10,7 +10,7 @@ export function OtopeniAirportAccessSection() {
           <ResponsiveImage
             alt="Aeroport Otopeni Access"
             sizes="(max-width: 768px) 100vw, 50vw"
-            src="/images/parcare-aeroport-otopeni/airport-airplane.png"
+            src="/images/parcare-aeroport-otopeni/airport-airplane.webp"
             wrapperClassName="h-[400px] overflow-hidden rounded-xl shadow-2xl"
           />
         </div>

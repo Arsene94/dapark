@@ -33,7 +33,7 @@ export function PillarsSection() {
           alt="professional staff member helping traveler"
           className="grayscale-[30%] transition-all duration-700 hover:grayscale-0"
           sizes="(max-width: 1024px) 100vw, 50vw"
-          src="/images/homepage/human-client-car-airport.png"
+          src="/images/homepage/human-client-car-airport.webp"
           wrapperClassName="relative z-10 aspect-[4/3] overflow-hidden rounded-lg shadow-2xl"
         />
         <div className="absolute -right-12 -top-12 -z-0 h-64 w-64 rounded-tr-[100px] border-r-8 border-t-8 border-jade-green/20" />

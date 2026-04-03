@@ -24,7 +24,7 @@ export function AboutHeroSection() {
           <ResponsiveImage
             alt="A diverse group of professional team members standing together in a modern bright office environment, smiling warmly at the camera"
             sizes="(max-width: 768px) 100vw, 50vw"
-            src="/images/about/team.png"
+            src="/images/about/team.webp"
             wrapperClassName="aspect-[4/5] overflow-hidden rounded-xl shadow-2xl transition-transform duration-700 md:rotate-3 md:hover:rotate-0"
           />
           <div className="absolute -bottom-10 -left-10 -z-10 h-64 w-64 rounded-xl bg-surface-container-highest opacity-50" />

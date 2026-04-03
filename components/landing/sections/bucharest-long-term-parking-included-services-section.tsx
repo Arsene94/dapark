@@ -12,7 +12,7 @@ export function BucharestLongTermParkingIncludedServicesSection() {
             <ResponsiveImage
               alt="Shuttle Service"
               sizes="(max-width: 768px) 100vw, 50vw"
-              src="/images/bucharest-long-term-parking/shuttle-service.png"
+              src="/images/bucharest-long-term-parking/shuttle-service.webp"
               wrapperClassName="h-[450px] w-full overflow-hidden rounded-3xl shadow-2xl"
             />
             <div className="absolute -right-6 -top-6 max-w-[200px] rounded-2xl bg-primary p-8 text-white shadow-xl">

@@ -14,13 +14,13 @@ export function CheapOtopeniParkingServicesSection() {
               <ResponsiveImage
                 alt="Shuttle"
                 sizes="(max-width: 1024px) 50vw, 25vw"
-                src="/images/parcare-ieftina-otopeni/space-shuttle.png"
+                src="/images/parcare-ieftina-otopeni/space-shuttle.webp"
                 wrapperClassName="h-64 w-full rounded-xl shadow-lg"
               />
               <ResponsiveImage
                 alt="Security"
                 sizes="(max-width: 1024px) 50vw, 25vw"
-                src="/images/parcare-ieftina-otopeni/seif.png"
+                src="/images/parcare-ieftina-otopeni/seif.webp"
                 wrapperClassName="mt-8 h-64 w-full rounded-xl shadow-lg"
               />
             </div>

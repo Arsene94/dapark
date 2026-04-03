@@ -11,7 +11,7 @@ export function OtopeniAirportCtaSection() {
           className="h-full w-full bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('/images/parcare-aeroport-otopeni/gradient-green.png')",
+              "url('/images/parcare-aeroport-otopeni/gradient-green.webp')",
           }}
         />
       </div>

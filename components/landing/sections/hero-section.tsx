@@ -37,11 +37,13 @@ export function HeroSection() {
         <div className="relative lg:col-span-6">
           <div className="relative">
             <ResponsiveImage
-              alt="high-angle shot of a premium organized parking lot at dusk"
-              preload
-              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 340px, 284px"
-              src="/images/homepage/hero.png"
-              wrapperClassName="aspect-[4/3] overflow-hidden rounded-lg shadow-2xl lg:rotate-2"
+                alt="high-angle shot of a premium organized parking lot at dusk"
+                preload
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 340px, 284px"
+                src="/images/homepage/hero.webp"
+                width={284}
+                height={213}
+                wrapperClassName="w-full max-w-[340px] lg:max-w-[284px] overflow-hidden rounded-lg shadow-2xl lg:rotate-2"
             />
             <div className="absolute inset-0 rounded-lg bg-gradient-to-tr from-berkeley-blue/40 to-transparent" />
           </div>

@@ -43,7 +43,7 @@ export function LongTermParkingHeroSection() {
             <ResponsiveImage
               alt="Modern parking facility"
               sizes="(max-width: 1024px) 100vw, 50vw"
-              src="/images/long-term-parking-otopeni/parcare-subteran.png"
+              src="/images/long-term-parking-otopeni/parcare-subteran.webp"
               wrapperClassName="h-[500px] w-full"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-secondary/40 to-transparent" />

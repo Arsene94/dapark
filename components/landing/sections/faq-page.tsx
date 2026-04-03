@@ -62,7 +62,7 @@ export function FaqPage() {
                 alt="Membru al echipei DaCars care asistă un client în fața parcării"
                 className="opacity-60"
                 sizes="(max-width: 768px) 100vw, 50vw"
-                src="/images/airport-personal.png"
+                src="/images/airport-personal.webp"
                 wrapperClassName="absolute inset-0"
               />
               <div className="relative z-10 flex h-full flex-col justify-end p-8">

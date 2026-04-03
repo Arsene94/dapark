@@ -42,7 +42,7 @@ export function CheapOtopeniParkingHeroSection() {
             <ResponsiveImage
               alt="Parcare Otopeni"
               sizes="(max-width: 768px) 100vw, 50vw"
-              src="/images/parcare-otopeni-green.png"
+              src="/images/parcare-otopeni-green.webp"
               wrapperClassName="h-[500px] w-full"
             />
             <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent p-6">

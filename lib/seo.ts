@@ -72,7 +72,7 @@ export const seoPageConfigs: Record<SeoPageKey, SeoPageConfig> = {
     description:
       "Află cum vede DaCars parcarea pe termen lung: simplă, sigură și făcută cu respect pentru timpul și mașina ta.",
     image:
-      "/images/human-team.png",
+      "/images/human-team.webp",
     keywords: [
       "despre noi parcare otopeni",
       "parcare termen lung otopeni",
@@ -94,7 +94,7 @@ export const seoPageConfigs: Record<SeoPageKey, SeoPageConfig> = {
     faqItems: commonParkingFaqs,
     faqTitle: "Întrebări frecvente despre parcare pe termen lung în București",
     image:
-      "/images/empty-park.png",
+      "/images/empty-park.webp",
     keywords: [
       "parcare termen lung otopeni",
       "parcare pe termen lung bucurești",
@@ -118,7 +118,7 @@ export const seoPageConfigs: Record<SeoPageKey, SeoPageConfig> = {
     faqItems: commonParkingFaqs,
     faqTitle: "Întrebări frecvente despre parcarea ieftină din Otopeni",
     image:
-      "/images/parcare-otopeni-green.png",
+      "/images/parcare-otopeni-green.webp",
     keywords: [
       "parcare ieftină aeroport bucurești",
       "parcare ieftină otopeni",
@@ -196,7 +196,7 @@ export const seoPageConfigs: Record<SeoPageKey, SeoPageConfig> = {
     faqItems: commonParkingFaqs,
     faqTitle: "Întrebări frecvente despre long term parking la Otopeni",
     image:
-      "/images/few-cars-park.png",
+      "/images/few-cars-park.webp",
     keywords: [
       "long term parking bucharest airport",
       "parcare termen lung otopeni",
@@ -221,7 +221,7 @@ export const seoPageConfigs: Record<SeoPageKey, SeoPageConfig> = {
     faqItems: commonParkingFaqs,
     faqTitle: "Întrebări frecvente despre parcarea de lângă Aeroportul Otopeni",
     image:
-      "/images/parcare-otopeni-animated.png",
+      "/images/parcare-otopeni-animated.webp",
     keywords: [
       "parcare aeroport otopeni",
       "parcare aeroport otopeni preț 7 zile",

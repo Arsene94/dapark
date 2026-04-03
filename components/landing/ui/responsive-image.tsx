@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import { cn } from "@/lib/cn";
 
 type ResponsiveImageProps = {
@@ -10,29 +9,47 @@ type ResponsiveImageProps = {
   sizes?: string;
   src: string;
   wrapperClassName?: string;
+  width?: number;
+  height?: number;
 };
 
 export function ResponsiveImage({
-  alt,
-  className,
-  preload = false,
-  quality = 75,
-  sizes = "100vw",
-  src,
-  wrapperClassName,
-}: ResponsiveImageProps) {
+                                  alt,
+                                  className,
+                                  preload = false,
+                                  quality = 75,
+                                  sizes = "100vw",
+                                  src,
+                                  wrapperClassName,
+                                  width,
+                                  height,
+                                }: ResponsiveImageProps) {
   return (
-    <div className={cn("relative", wrapperClassName)}>
-      <Image
-        alt={alt}
-        className={cn("object-cover", className)}
-        decoding="async"
-        fill
-        preload={preload}
-        quality={quality}
-        sizes={sizes}
-        src={src}
-      />
-    </div>
+      <div className={cn("relative", wrapperClassName)}>
+        {width && height ? (
+            <Image
+                alt={alt}
+                className={cn("h-auto w-full object-cover", className)}
+                decoding="async"
+                width={width}
+                height={height}
+                preload={preload}
+                quality={quality}
+                sizes={sizes}
+                src={src}
+            />
+        ) : (
+            <Image
+                alt={alt}
+                className={cn("object-cover", className)}
+                decoding="async"
+                fill
+                preload={preload}
+                quality={quality}
+                sizes={sizes}
+                src={src}
+            />
+        )}
+      </div>
   );
 }
