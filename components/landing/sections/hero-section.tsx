@@ -41,8 +41,6 @@ export function HeroSection() {
                 preload
                 sizes="(max-width: 1024px) 340px, 284px"
                 src="/images/homepage/hero.webp"
-                width={284}
-                height={213}
                 wrapperClassName="w-full max-w-[340px] lg:max-w-[284px] overflow-hidden rounded-lg shadow-2xl lg:rotate-2"
             />
             <div className="absolute inset-0 rounded-lg bg-gradient-to-tr from-berkeley-blue/40 to-transparent" />
