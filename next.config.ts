@@ -34,6 +34,18 @@ const nextConfig: NextConfig = {
         pathname: "/images/**",
         search: "",
       },
+      {
+        pathname: "/dapark-logo.png",
+        search: "",
+      },
+      {
+        pathname: "/dacars-logo.svg",
+        search: "",
+      },
+      {
+        pathname: "/dapark-icon.png",
+        search: "",
+      },
     ],
     maximumRedirects: 0,
     minimumCacheTTL: 604800,

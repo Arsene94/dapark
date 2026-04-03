@@ -1,4 +1,7 @@
+import Link from "next/link";
+
 import { footerGroups, socialIcons } from "@/components/landing/data";
+import { BrandLogo } from "@/components/landing/ui/brand-logo";
 import { FooterLinkGroup } from "@/components/landing/ui/footer-link-group";
 import { MaterialIcon } from "@/components/landing/ui/material-icon";
 
@@ -6,9 +9,9 @@ export function FooterSection() {
   return (
     <footer className="grid w-full grid-cols-1 gap-8 bg-[#f6f3f2] px-8 py-12 md:grid-cols-4">
       <div className="col-span-1 space-y-4 md:col-span-1">
-        <div className="text-xl font-black text-berkeley-blue">
-          DaCars
-        </div>
+        <Link aria-label="DaPark homepage" className="inline-flex" href="/">
+          <BrandLogo size="footer" />
+        </Link>
         <p className="text-sm text-slate-600">
           Partenerul tău de încredere pentru parcare securizată la cel mai înalt
           nivel de profesionalism.

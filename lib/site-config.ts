@@ -46,6 +46,8 @@ export const siteConfig = {
   businessName: "DaCars Parking Otopeni",
   defaultDescription:
     "Parcare pe termen lung lângă Aeroportul Otopeni, cu transfer rapid, supraveghere 24/7 și rezervare simplă.",
+  defaultIcon:
+    "/dapark-icon.png",
   defaultOgImage:
     "/images/park-night-shift.png",
   email: "office@dacars.ro",
@@ -63,6 +65,8 @@ export const siteConfig = {
   phoneHref: "+40723817551",
   sameAs: parseStringList(process.env.NEXT_PUBLIC_SAME_AS),
   siteName: "DaCars",
+  siteLogo:
+    "/dacars-logo.svg",
   siteUrl: normalizeSiteUrl(
     process.env.NEXT_PUBLIC_SITE_URL || process.env.SITE_URL,
   ),

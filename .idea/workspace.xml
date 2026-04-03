@@ -6,13 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="cc37b639-e432-4eba-b981-0f7cc073ac17" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AGENTS.md" beforeDir="false" afterPath="$PROJECT_DIR$/AGENTS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/landing/sections/footer-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/footer-section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/landing/sections/top-nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/landing/sections/top-nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/seo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/seo.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/site-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/site-config.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +68,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public/images/about" />
       <recent name="$PROJECT_DIR$/public/images/bucharest-long-term-parking" />
       <recent name="$PROJECT_DIR$/public/images/parcare-termen-lung-bucuresti" />
-      <recent name="$PROJECT_DIR$/public/images/parcare-ieftina-otopeni" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
@@ -106,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1775154503917</updated>
       <workItem from="1775154504945" duration="17974000" />
-      <workItem from="1775204817593" duration="31000" />
+      <workItem from="1775204817593" duration="3113000" />
     </task>
     <servers />
   </component>

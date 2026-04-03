@@ -323,7 +323,7 @@ export function buildParkingFacilitySchema() {
         }
       : {}),
     image: siteConfig.defaultOgImage,
-    logo: absoluteUrl("/favicon.ico"),
+    logo: absoluteUrl(siteConfig.siteLogo),
     name: siteConfig.businessName,
     openingHoursSpecification: [
       {
@@ -360,7 +360,7 @@ export function buildOrganizationSchema() {
     description: siteConfig.defaultDescription,
     email: siteConfig.email,
     image: siteConfig.defaultOgImage,
-    logo: absoluteUrl("/favicon.ico"),
+    logo: absoluteUrl(siteConfig.siteLogo),
     name: siteConfig.businessName,
     ...(sameAs.length ? { sameAs } : {}),
     telephone: siteConfig.phoneDisplay,

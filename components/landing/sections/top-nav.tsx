@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 import { navItems } from "@/components/landing/data";
+import { BrandLogo } from "@/components/landing/ui/brand-logo";
 import { Container } from "@/components/landing/ui/container";
 import { cn } from "@/lib/cn";
 
@@ -24,10 +25,11 @@ export function TopNav() {
         size="wide"
       >
         <Link
-          className="text-2xl font-extrabold tracking-tighter text-berkeley-blue"
+          aria-label="DaPark homepage"
+          className="shrink-0"
           href="/"
         >
-          DaCars
+          <BrandLogo priority />
         </Link>
         <div className="hidden items-center space-x-8 md:flex">
           {navItems.map((item) => (
