@@ -20,7 +20,7 @@ export function FormField({
   return (
     <div className={cn("space-y-1", className)}>
       <label
-        className="px-1 text-[0.6875rem] font-bold uppercase tracking-widest text-on-surface-variant"
+        className="px-1 text-[0.5875rem] font-bold uppercase tracking-widest text-on-surface-variant"
         htmlFor={htmlFor}
       >
         {label}
