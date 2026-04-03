@@ -53,12 +53,7 @@ export function FaqPage() {
                 >
                   Sună-ne
                 </a>
-                <a
-                  className="rounded-lg border border-outline/20 px-6 py-2 text-sm font-bold text-secondary transition-transform active:scale-95"
-                  href={`mailto:${siteConfig.email}`}
-                >
-                  Email Support
-                </a>
+
               </div>
             </div>
 

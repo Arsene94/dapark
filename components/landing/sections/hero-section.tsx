@@ -39,7 +39,7 @@ export function HeroSection() {
             <ResponsiveImage
               alt="high-angle shot of a premium organized parking lot at dusk"
               preload
-              sizes="(max-width: 1024px) 100vw, 50vw"
+              sizes="(max-width: 768px) 100vw, (max-width: 1024px) 340px, 284px"
               src="/images/homepage/hero.png"
               wrapperClassName="aspect-[4/3] overflow-hidden rounded-lg shadow-2xl lg:rotate-2"
             />

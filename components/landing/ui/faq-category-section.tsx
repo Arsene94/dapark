@@ -23,8 +23,12 @@ export function FaqCategorySection({
         </p>
       </div>
       <div className="space-y-4 md:col-span-8">
-        {items.map((item) => (
-          <FaqItemCard key={item.question} {...item} />
+        {items.map((item, index) => (
+          <FaqItemCard
+            key={item.question}
+            defaultOpen={index === 0}
+            {...item}
+          />
         ))}
       </div>
     </section>
