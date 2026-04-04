@@ -1,4 +1,4 @@
-const DEFAULT_SITE_URL = "http://localhost:3000";
+const DEFAULT_SITE_URL = "https://dapark.ro";
 
 function normalizeSiteUrl(value?: string) {
   if (!value) {
