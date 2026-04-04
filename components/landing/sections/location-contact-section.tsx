@@ -22,8 +22,8 @@ export function LocationContactSection() {
           ))}
         </div>
       </div>
-      <div className="min-h-[400px] overflow-hidden rounded-lg bg-surface-container-highest shadow-inner">
-        {/*<MapEmbed*/}
+      <div className="min-h-[400px] overflow-hidden rounded-lg">
+        {/*<MapEmbed // bg-surface-container-highest shadow-inner*/}
         {/*  className="h-[400px] w-full rounded-[10px] border-0"*/}
         {/*  title="Hartă interactivă Google Maps cu locația parcării DaCars lângă Aeroportul Otopeni"*/}
         {/*/>*/}
