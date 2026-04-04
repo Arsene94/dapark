@@ -6,6 +6,7 @@ import { buildParkingFacilitySchema } from "@/lib/seo";
 import { siteConfig } from "@/lib/site-config";
 
 import "./globals.css";
+import {GoogleTagManager} from "@next/third-parties/google";
 
 const manrope = Manrope({
   display: "swap",
@@ -37,6 +38,7 @@ export default function RootLayout({
 }>) {
   return (
     <html className="h-full scroll-smooth" lang="ro">
+    <GoogleTagManager gtmId="GTM-NKMDM8CP" />
       <body
         className={`${manrope.variable} ${plusJakartaSans.variable} flex min-h-full flex-col bg-surface font-body text-on-surface antialiased`}
       >
