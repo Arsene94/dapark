@@ -677,6 +677,15 @@ export const footerGroups: FooterGroup[] = [
       { label: "Despre noi", href: "/despre-noi" },
       { label: "FAQ", href: "/faq" },
       { label: "Contact", href: "/contact" },
+      { label: "Termeni și condiții", href: "/termeni-si-conditii" },
+      {
+        label: "Politică de confidențialitate",
+        href: "/politica-de-confidentialitate",
+      },
+      {
+        label: "Politică de cookie-uri",
+        href: "/politica-de-cookie-uri",
+      },
     ],
   },
   {

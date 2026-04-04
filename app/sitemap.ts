@@ -8,6 +8,21 @@ const staticRoutes = [
   { changeFrequency: "monthly" as const, path: "/faq", priority: 0.75 },
   { changeFrequency: "monthly" as const, path: "/contact", priority: 0.7 },
   {
+    changeFrequency: "monthly" as const,
+    path: "/termeni-si-conditii",
+    priority: 0.5,
+  },
+  {
+    changeFrequency: "monthly" as const,
+    path: "/politica-de-confidentialitate",
+    priority: 0.5,
+  },
+  {
+    changeFrequency: "monthly" as const,
+    path: "/politica-de-cookie-uri",
+    priority: 0.5,
+  },
+  {
     changeFrequency: "weekly" as const,
     path: "/parcare-aeroport-otopeni",
     priority: 0.95,

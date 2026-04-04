@@ -13,12 +13,15 @@ type PageSchemaType = "AboutPage" | "ContactPage" | "WebPage";
 type SeoPageKey =
   | "about"
   | "bucharestLongTermParking"
+  | "cookiePolicy"
   | "cheapOtopeniParking"
   | "contact"
   | "faq"
   | "home"
   | "longTermParkingOtopeni"
-  | "otopeniAirportParking";
+  | "otopeniAirportParking"
+  | "privacyPolicy"
+  | "termsConditions";
 
 type SeoPageConfig = {
   areaServed?: string;
@@ -107,6 +110,22 @@ export const seoPageConfigs: Record<SeoPageKey, SeoPageConfig> = {
     serviceName: "Parcare pe termen lung București",
     serviceType: "Long-term parking service",
     title: "Parcare pe Termen Lung București – Aproape de Aeroport | DaCars",
+  },
+  cookiePolicy: {
+    breadcrumbName: "Politică de cookie-uri",
+    description:
+      "Informații GDPR și politica de cookie-uri pentru utilizarea site-ului dapark.ro și a serviciilor DELTA FLOT SRL.",
+    image: siteConfig.defaultOgImage,
+    keywords: [
+      "politica de cookie-uri dapark",
+      "informatii gdpr dapark",
+      "cookie-uri parcare otopeni",
+    ],
+    language: "ro-RO",
+    path: "/politica-de-cookie-uri",
+    schemaName: "Politică de cookie-uri",
+    schemaType: "WebPage",
+    title: "Politică de Cookie-uri | DaPark",
   },
   cheapOtopeniParking: {
     areaServed: "Otopeni, București",
@@ -234,6 +253,38 @@ export const seoPageConfigs: Record<SeoPageKey, SeoPageConfig> = {
     serviceName: "Parcare aeroport Otopeni",
     serviceType: "Airport parking",
     title: "Parcare Aeroport Otopeni – Sigură, Rapidă și Accesibilă | DaCars",
+  },
+  privacyPolicy: {
+    breadcrumbName: "Politică de confidențialitate",
+    description:
+      "Politica de confidențialitate pentru datele personale prelucrate prin dapark.ro și serviciile de parcare DELTA FLOT SRL.",
+    image: siteConfig.defaultOgImage,
+    keywords: [
+      "politica de confidențialitate dapark",
+      "gdpr dapark",
+      "date personale parcare otopeni",
+    ],
+    language: "ro-RO",
+    path: "/politica-de-confidentialitate",
+    schemaName: "Politică de confidențialitate",
+    schemaType: "WebPage",
+    title: "Politică de Confidențialitate | DaPark",
+  },
+  termsConditions: {
+    breadcrumbName: "Termeni și condiții",
+    description:
+      "Termenii și condițiile de utilizare pentru rezervările și serviciile oferite prin dapark.ro.",
+    image: siteConfig.defaultOgImage,
+    keywords: [
+      "termeni și condiții dapark",
+      "condiții rezervare parcare otopeni",
+      "politică anulare dapark",
+    ],
+    language: "ro-RO",
+    path: "/termeni-si-conditii",
+    schemaName: "Termeni și condiții",
+    schemaType: "WebPage",
+    title: "Termeni și Condiții | DaPark",
   },
 };
 
