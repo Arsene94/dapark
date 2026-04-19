@@ -17,6 +17,7 @@ import {
   parseStoredReservation,
 } from "@/lib/reservation-session";
 import { siteConfig } from "@/lib/site-config";
+import MetaLeadTracker from "@/components/tracking/meta-lead-tracker";
 
 const successContactDetails: ContactDetail[] = [
   {
@@ -75,6 +76,8 @@ export function ReservationSuccessPage() {
   return (
     <>
       <TopNav />
+      <MetaLeadTracker price={reservation.priceLabel} clientName={reservation.nume} phone={reservation.telefon} />
+
       <main className="min-h-screen bg-background px-6 pb-24 pt-32 text-on-background">
         <Container className="px-0">
           <section className="mb-16 text-center">

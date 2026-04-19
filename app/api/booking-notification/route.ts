@@ -80,6 +80,7 @@ function buildPayload(
             { text: formatWhatsappDateTime(reservation.dataPlecare), type: "text" },
             { text: String(reservation.dayCount), type: "text" },
             { text: reservation.priceLabel, type: "text" },
+            { text: reservation.telefon, type: "text" },
           ],
           type: "body",
         },
