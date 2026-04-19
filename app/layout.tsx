@@ -8,6 +8,7 @@ import { siteConfig } from "@/lib/site-config";
 import "./globals.css";
 import {GoogleTagManager} from "@next/third-parties/google";
 import MetaPageViewTracker from "@/components/tracking/meta-pageview-tracker";
+import {Suspense} from "react";
 
 const manrope = Manrope({
   display: "swap",
@@ -75,7 +76,9 @@ var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n
           style={{ display: "none" }}
           src="https://www.facebook.com/tr?id=920633074095459&ev=PageView&noscript=1"/>
     </noscript>
-    <MetaPageViewTracker />
+    <Suspense fallback={null}>
+      <MetaPageViewTracker />
+    </Suspense>
       <body
         className={`${manrope.variable} ${plusJakartaSans.variable} flex min-h-full flex-col bg-surface font-body text-on-surface antialiased`}
       >
